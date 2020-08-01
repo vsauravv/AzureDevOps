@@ -33,7 +33,6 @@ stages:
 
   - stage: ProdDeployJob
     jobs:
-       - job: ProdDeployJob
-         steps:
-         bash: echo ProdDeployJob
-         
+      - job: ProdDeployJob
+        steps:
+        - bash: echo ProdDeployJob
